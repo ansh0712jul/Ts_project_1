@@ -1,0 +1,46 @@
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5rem;   
+}
+
+.card {
+    width: 400px;
+    height: 450px;
+    margin: 15px;
+    
+    border-radius: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 80%;
+    
+    margin: 1.8rem;
+
+}
+.card img:hover{
+    cursor: pointer;
+    
+
+}
+
+.card h2 {
+    text-align: center;
+}
+
+
+ .input {
+    position: absolute;
+    top: 50px;
+    left : 43%;
+    display: flex;   
+    gap: 1.2rem;
+    
+
+}
+
